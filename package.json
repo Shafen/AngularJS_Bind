@@ -1,0 +1,8 @@
+{
+  "name": "AngularJS_Bind",
+  "version": "0.1.0",
+  "description": "Simple AnuglarJS databinding application",
+  "author": "Steven Hafen",
+  "repo": "https://github.com/Shafen/AngularJS_Bind.git",
+  "dependencies": {}
+}
