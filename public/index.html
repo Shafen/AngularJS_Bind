@@ -23,18 +23,25 @@
         </div>
       </div>
       
-      <div class="row">
+      <div class="row ng-cloak" ng-app ng-cloak>
         <div class="span3">
           <ul class="nav nav-list well">
             <li class="nav-header">Total</li>
-            <li>Total Will Go Here</li>
+            <li>{{ quantity * cost | currency }}</li>
           </ul>
         </div>
-        <div class="span9">
-          &nbsp;
+        <div class="span9" ng-init="quantity=1; cost;">
+          <div>
+            <lable>Quantity</lable><br />
+            <input type="number" min="0" ng-model="quantity">
+          </div>
+          <div>
+            <lable>Cost Per Unit</lable><br />
+            <input type="text" min="0" placeholder="Enter Cost" ng-model="cost">
+          </div>
         </div>
       </div>
-    
+      
     </div> <!-- End class="container" -->
     
     <script src="js/jquery.min.js"></script>
