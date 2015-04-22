@@ -8,8 +8,8 @@
         this.currencies = ['USD','EUR','CNY'];
         this.usdToForeignRates = {
           USD: 1,
-          EUR: 0.74,
-          CNY:6.09
+          EUR: 1.07,
+          CNY:0.16
         };
         
         this.total = function total(outCurr) {
