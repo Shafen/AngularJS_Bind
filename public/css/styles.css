@@ -5,3 +5,7 @@ body {
 .navbar .brand{
     margin-left:10px;
 }
+
+hr {
+    margin-top:200px;
+}
